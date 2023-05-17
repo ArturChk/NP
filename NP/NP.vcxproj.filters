@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Files">
+      <UniqueIdentifier>{3f2619b1-bb07-401e-a08f-242e5ccacbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lists">
+      <UniqueIdentifier>{c9ada66e-6302-4b0a-88ca-fd03f335fc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lists">
+      <UniqueIdentifier>{c7f9c353-51af-4a41-b049-b8877ba248f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Files">
+      <UniqueIdentifier>{9c166459-3f42-4ff7-8eda-36f2d530502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TemplateLists">
+      <UniqueIdentifier>{b13ef416-5988-4044-9f4d-0c1d1a918d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TemplateLists">
+      <UniqueIdentifier>{ed2ce5a2-71ab-4a9d-9a5d-cb432d70461e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ALists">
+      <UniqueIdentifier>{831c7b44-fea8-42f8-af68-fd31efd909ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{1ce0ac8a-d144-4b50-b942-871cccdf5117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{4c70b252-478e-4ec5-955d-8c30b085e1a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Perfomance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Concert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectacle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Concert_File.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectacle_File.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer_File.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker_File.cpp">
+      <Filter>Source Files\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Concert_List.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Perfomance_List.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer_List.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker_list.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectacle_List.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Person_List.cpp">
+      <Filter>Source Files\Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Concert_T_List.cpp">
+      <Filter>Source Files\TemplateLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectacle_T_List.cpp">
+      <Filter>Source Files\TemplateLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewer_T_List.cpp">
+      <Filter>Source Files\TemplateLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker_T_List.cpp">
+      <Filter>Source Files\TemplateLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Provider.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Perfomance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Concert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectacle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Concert_List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Perfomance_List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectacle_List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer_List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker_List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Concert_File.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectacle_File.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer_File.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker_File.h">
+      <Filter>Header Files\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Person_List.h">
+      <Filter>Header Files\Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="T_List.h">
+      <Filter>Header Files\TemplateLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Concert_T_List.h">
+      <Filter>Header Files\TemplateLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectacle_T_List.h">
+      <Filter>Header Files\TemplateLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer_T_List.h">
+      <Filter>Header Files\TemplateLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker_T_List.h">
+      <Filter>Header Files\TemplateLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Concert_A_List.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectacle_A_List.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewer_A_List.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker_A_List.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="A_List.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="A_Factory_List.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Inheritance_Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Template_Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Provider.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Workers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Viewers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Concerts.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Spectacles.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Access.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
